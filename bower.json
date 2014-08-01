@@ -1,24 +1,13 @@
 {
-  "name": "angular-smoothiechart",
+  "name": "angular-smoothiecharts",
   "version": "0.0.1",
-  "authors": [
-    "gntikos <siantikosg@gmail.com>"
-  ],
-  "description": "angular directive for smoothiecharts",
-  "moduleType": [
-    "node"
-  ],
-  "license": "MIT",
-  "private": true,
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "vendor",
-    "test",
-    "tests"
+    "index.html",
+    "app.js",
+    "README.md"
   ],
   "dependencies": {
-    "angular": "~1.2.20",
-    "smoothie-bower": "~1.19.0"
+    "smoothie": "https://github.com/joewalnes/smoothie.git",
+    "angular": "~1.2.21"
   }
 }

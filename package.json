@@ -1,0 +1,11 @@
+{
+  "name": "angular-smoothiecharts",
+  "description": "AngularJS directive for smoothie charts",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-concat": "~2.3.4",
+    "gulp-uglify": "~0.3.1",
+    "gulp-ng-annotate": "~0.2.0"
+  }
+}

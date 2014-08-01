@@ -1,19 +1,21 @@
 <!doctype html>
-<html ng-app="smooooth">
+<html ng-app="smooth-example">
+  
   <head>
     <script type="text/javascript" src="vendor/angular/angular.js"></script>
-    <script type="text/javascript" src="vendor/smoothie-bower/smoothie.js"></script>
-    <script type="text/javascript" src="js/directives.js"></script>
+<!--    <script type="text/javascript" src="vendor/smoothie/smoothie.js"></script>-->
+    <script type="text/javascript" src="dist/angular-smoothie.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+<!--    <script type="text/javascript" src="js/directives.js"></script>-->
+      
   </head>
     
   <body ng-controller="MainController">
-<!--      <smoothie callback="foo" width="600" line-color="red" grid-color="blue" background="white" line-width="2" ></smoothie>-->
-<!--      <smoothie callback="goo" width="600"   rate="40" ></smoothie>-->
-      
+      <h4>A random blue time-series</h4> <br \>
       <smoothie-grid width="600">
         <time-series callback="foo()" color="blue" rate="100"></time-series>
+        <time-series callback="foo()" color="#4b8e4b" fill="rgba(108, 255, 0, 0.34)" width="0" rate="200"></time-series>
       </smoothie-grid>
   </body>
-
+    
 </html>

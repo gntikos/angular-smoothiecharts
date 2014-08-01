@@ -1,4 +1,4 @@
-angular.module("smooooth", ['smoothie-directive'])
+angular.module("smooth-example", ['smoothie-directive'])
 
     .controller('MainController', function($scope) {
         $scope.foo = function() {
