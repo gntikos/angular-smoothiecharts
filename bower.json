@@ -7,7 +7,9 @@
     "README.md"
   ],
   "dependencies": {
-    "smoothie": "https://github.com/joewalnes/smoothie.git",
-    "angular": "~1.2.21"
+	"angular": ">=1.2.19"
+  },
+  "devDependencies": {
+    "smoothie": "https://github.com/joewalnes/smoothie.git"
   }
 }
