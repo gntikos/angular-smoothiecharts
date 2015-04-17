@@ -1,6 +1,9 @@
 {
   "name": "angular-smoothiecharts",
   "version": "0.0.1",
+  "main" : [
+    "dist/angular-smoothie.min.js"	
+  ],
   "ignore": [
     "index.html",
     "app.js",
