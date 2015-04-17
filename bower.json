@@ -1,8 +1,8 @@
 {
   "name": "angular-smoothiecharts",
   "version": "0.0.1",
-  "main" : [
-    "dist/angular-smoothie.min.js"	
+  "main": [
+    "js/directives.js"
   ],
   "ignore": [
     "index.html",
@@ -10,9 +10,7 @@
     "README.md"
   ],
   "dependencies": {
-	"angular": ">= 1.2.19"
-  },
-  "devDependencies": {
-    "smoothie": "https://github.com/joewalnes/smoothie.git"
+    "angular": ">= 1.2.19",
+    "smoothie": ">= 1.27.0"
   }
 }
